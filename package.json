@@ -1,0 +1,16 @@
+{
+  "name": "authorized-video-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dark, responsive downloader for authorized direct video URLs.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ipaddr.js": "^2.2.0"
+  }
+}
